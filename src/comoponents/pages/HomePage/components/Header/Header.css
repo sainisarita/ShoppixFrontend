@@ -1,19 +1,27 @@
+/* Header styles */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0;
-  margin-left: 20px;
-  position: relative;
   height: 50px;
+  margin: top 1%;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  z-index: 999;
 }
 
 .left-section {
   display: flex;
+  align-items: center;
 }
 
 .right-section {
   display: flex;
+  align-items: center;
 }
 
 .header-item {
