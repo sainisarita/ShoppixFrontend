@@ -1,0 +1,40 @@
+.new-arrivals {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .section-title {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-color {
+    color:rgb(225, 11, 121);
+ 
+  }
+  
+  .normal-color {
+    color: black;
+   
+  }
+  
+  .section-description {
+    font-size: 16px;
+    color: #0c0808;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .view-all-products {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #1a1515;
+   font-size: 25px;
+   font-weight: 500px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  

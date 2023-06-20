@@ -1,0 +1,55 @@
+.card {
+    margin-bottom: 0;
+  }
+
+  .ring-collection .card {
+    border-top: 1px solid black;
+}
+.explore-shoppix{
+    margin: -15px;
+    padding: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+   
+    
+    
+}  
+.explore-shoppix .text-center {
+    background-color: black !important;
+    margin-top: 10px !important;
+    
+  }
+  
+  .explore-shoppix .card-title {
+    color: rgb(124, 123, 123) !important;
+    font-size: 20px !important;
+    margin-top: 100px;
+  
+  }
+  
+  .explore-shoppix .card-text {
+    color: white;
+    margin-bottom: -20px;
+    font-size: 100px;
+    
+    
+  }
+  
+  .year {
+   
+    color:white;
+    font-size: 80px;
+  }
+  .date{
+   
+    margin: -12px;
+    font-size: 80px;
+    color:rgb(225, 11, 121);
+  }
+
+  

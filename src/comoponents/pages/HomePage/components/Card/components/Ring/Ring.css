@@ -1,0 +1,47 @@
+.ring-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .ring-container .card {
+    width: 18rem !important;
+    border: none !important;
+  }
+  
+  .ring-container .card-img-top {
+    height: 350px !important;
+    object-fit: cover !important;
+  }
+  
+  .ring-container .card-title {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .ring-container .card-text {
+    font-size: 16px !important;
+    color: #777 !important;
+  }
+  
+  .ring-container .btn {
+    background-color: rgb(225, 11, 121) !important;
+    border-color: rgb(225, 11, 121) !important;
+    color: #fff !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .ring-container .btn:hover {
+    background-color: rgb(209, 0, 110) !important;
+    border-color: rgb(209, 0, 110) !important;
+  }
+  .ring-container .card .btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }

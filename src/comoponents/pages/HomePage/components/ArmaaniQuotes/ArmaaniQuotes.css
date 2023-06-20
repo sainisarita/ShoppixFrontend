@@ -1,0 +1,46 @@
+/* ArmaaniQuotes.css */
+
+.armaani-quotes {
+    margin: -68px;
+    padding: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+  }
+  
+  .armaani-quotes .card-img-top {
+    width: 50%;
+    margin-right: -392px;
+  }
+  
+  .armaani-quotes .custom-card {
+    margin-bottom: 0;
+    background-color: antiquewhite;
+  }
+  
+  .card-image-container {
+    position: relative;
+  }
+  
+ .armaani-quotes .blank-card {
+    position: absolute;
+    top: -49px;
+    left: -134px;
+    width: 70%;
+    height: 170%;
+    background-color: #a385db;
+    z-index: -1;
+  }
+  
+ .armaani-quotes .card-image {
+    width: 40%; /* Updated to 100% width */
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
