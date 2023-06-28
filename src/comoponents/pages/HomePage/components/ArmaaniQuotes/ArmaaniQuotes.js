@@ -39,10 +39,10 @@ const ArmaaniQuotes = () => {
         </Fade>
         <div className="blockquotes">
           <blockquote className="quote">
-          "To create something exceptional,
-            {"\n"}your mindset must be
-            {"\n"}relentlessly focused
-            {"\n"}on the smallest detail."
+            To create something 
+            {"\n"}exceptional your mindset 
+            {"\n"}must be relentlessly focused
+            {"\n"}on the smallest detail.
             <br />
           </blockquote>
           <p className="author">——— Giorgio Armani</p>

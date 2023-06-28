@@ -6,6 +6,7 @@ import ExploreShoppix from './components/ExploreShoppix/ExploreShoppix';
 import RingCollection from './components/RingCollection/RingCollection';
 import EaringCollection from './components/EaringCollection/EaringCollection';
 import ArmaaniQuotes from './components/ArmaaniQuotes/ArmaaniQuotes';
+import Trending from './components/Trending/Trending';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
         <RingCollection/>
         <EaringCollection/>
         <ArmaaniQuotes/>
+        <Trending/>
       </div>
 
   );
