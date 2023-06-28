@@ -1,11 +1,11 @@
  .myNavbar{
-    margin-top: 20px !important; 
-    position:fixed !important;
-  top: 40px !important;
+    margin-top: 40px !important; 
+    position:relative !important;
+  /* top: 40px !important; */
   width: 100% !important;
   border-top: 1px solid #e2dddd !important;
-  margin-left: 0 !important;
-  z-index: 1 !important;
+  /* margin-left: 0 !important; */
+  transition: top 0.3s ease;
 }
 
 .navbar-brand{
@@ -35,9 +35,10 @@
     }
   }
   
-  
-  
-  
-  
-  
+  .myNavbar.fixed-top {
+    position: fixed !important;
+    top: 0 !important;
+    margin-top: 0 !important;
+  z-index: 999 !important;
+  }
   
