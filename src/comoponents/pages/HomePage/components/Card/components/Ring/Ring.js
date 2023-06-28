@@ -10,7 +10,7 @@ const Ring = () => {
   return (
     <div className="ring-container">
       <CardGroup>
-        <Card>
+        <Card className='trendRing'>
           <Card.Img variant="top" src={ring1} alt="My Photo" />
           <Card.Body>
             <Card.Title>Bridal wedding rings set</Card.Title>
@@ -18,7 +18,7 @@ const Ring = () => {
             <Button variant="primary" href="your-link-here">Sale!</Button>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className='trendRing'>
           <Card.Img variant="top" src={ring2} alt="My Photo" />
           <Card.Body>
             <Card.Title>Wedding rings set</Card.Title>
@@ -26,7 +26,7 @@ const Ring = () => {
             <Button variant="primary" href="your-link-here">Sale!</Button>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className='trendRing'>
           <Card.Img variant="top" src={ring3} alt="My Photo" />
           <Card.Body>
             <Card.Title>Blue topaz gemstone rings</Card.Title>
@@ -34,7 +34,7 @@ const Ring = () => {
             <Button variant="primary" href="your-link-here">Sale!</Button>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className='trendRing'>
           <Card.Img variant="top" src={ring4} alt="My Photo" />
           <Card.Body>
             <Card.Title>Blue topaz gemstone rings</Card.Title>
