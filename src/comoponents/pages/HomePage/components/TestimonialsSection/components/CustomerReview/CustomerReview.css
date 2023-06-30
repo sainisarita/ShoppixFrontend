@@ -1,0 +1,31 @@
+.review-text{
+    margin-top: -76px;
+    margin-left: 155px;
+}
+.review-image {
+    width: 100px ; /* Adjust the desired width */
+    height: 100px ; /* Adjust the desired height */
+  }
+  
+  .review-text h3{
+    font-size: 25px ; /* Adjust the desired font size */
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+  .review-text p {
+    margin-top: 5px; /* Adjust the desired margin */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: grey;
+  }
+  
+  .review {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .customer-review .review .para{
+    font-size: 19px ;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+  }

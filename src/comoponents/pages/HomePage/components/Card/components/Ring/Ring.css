@@ -56,4 +56,10 @@
   .trendRing:hover {
     background-color: #eeeeee;
   }
-  
+
+  .ring-container .trendRing:nth-child(4n+2) {
+    margin-top: 100px;
+  }
+  .ring-container .trendRing:nth-child(4n+4) {
+    margin-top: 100px;
+  }

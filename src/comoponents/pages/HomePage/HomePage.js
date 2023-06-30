@@ -7,6 +7,12 @@ import RingCollection from './components/RingCollection/RingCollection';
 import EaringCollection from './components/EaringCollection/EaringCollection';
 import ArmaaniQuotes from './components/ArmaaniQuotes/ArmaaniQuotes';
 import Trending from './components/Trending/Trending';
+import TrendingRing from './components/TrendingRing/TrendingRing';
+import TrendingEaring from './components/TrendingEaring/TrendingEaring';
+import TestimonialsSection from './components/TestimonialsSection/TestimonialsSection';
+import CommunitySection from './components/communitySection/CommunitySection';
+import AboutShoppix from './components/AboutShoppix/AboutShoppix';
+import Footer from './components/Footer/Footer';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -20,6 +26,12 @@ const HomePage = () => {
         <EaringCollection/>
         <ArmaaniQuotes/>
         <Trending/>
+        <TrendingRing/>
+        <TrendingEaring/>
+        <TestimonialsSection/>
+        <CommunitySection/>
+        <AboutShoppix/>
+        <Footer/>
       </div>
 
   );

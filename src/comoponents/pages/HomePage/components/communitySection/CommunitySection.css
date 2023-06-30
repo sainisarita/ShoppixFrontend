@@ -1,0 +1,52 @@
+.community-section{
+    margin-top: 15%;
+}
+
+.community-section h2{
+    font-size: 15px;
+}
+
+.community-section p{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.25ocp;
+}
+
+.community-section span{
+    font-size: 30px;
+    color: grey;
+}
+
+.community-section h1{
+    color: rgb(68, 56, 56);
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.rectangular-input {
+    border: 3px solid rgba(180, 173, 173, 0.699);
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+  }
+
+  .rectangular-input::placeholder {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .rectangular-input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  .custom-button {
+    width: 500px !important;
+    height: 80px;
+  }
+  
+  

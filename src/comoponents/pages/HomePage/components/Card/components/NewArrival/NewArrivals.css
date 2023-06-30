@@ -1,6 +1,6 @@
 .new-arrivals {
     text-align: center;
-    margin-top: 500px;
+    margin-top: 220px;
   }
   
   .section-title {
@@ -35,6 +35,8 @@
     margin-bottom: 20px;
   }
   
-
+   .view-all-products:hover {
+    color: rgb(225, 11, 121);
+  }
   
   
