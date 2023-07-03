@@ -5,7 +5,7 @@ import ring1 from '../../images/TrendingRingImage/dangal-pave-bridal-ring.jpg';
 import ring2 from '../../images/TrendingRingImage/diamond-bridal-ring.jpg';
 import ring3 from '../../images/TrendingRingImage/muticolour-gemstone-ring.jpg';
 import ring4 from '../../images/TrendingRingImage/wedding-ring-set.jpg';
-import Zoom from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
 
 
 const TrendingRing = () => {

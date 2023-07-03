@@ -27,6 +27,7 @@
   }
   
   .ring-collection-2020 {
+    font-family: 'Times New Roman', Times, serif;
     width: 28%;
     height: 88%;
     position: absolute;
@@ -39,6 +40,7 @@
     background-repeat: repeat;
     padding: 20px;
     text-align: center;
+    white-space:pre-wrap;
     margin: 0;
     padding: 0;
   }
@@ -56,6 +58,8 @@
     color: white;
     font-size: 60px;
     line-height: 60px;
+    display:flex;
+    margin-left: 45px;
     word-spacing: -5px;
   }
   
