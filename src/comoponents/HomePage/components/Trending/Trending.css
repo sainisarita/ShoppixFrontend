@@ -1,0 +1,66 @@
+.trending {
+  margin: 20px 0; /* Add spacing of 20px from top and bottom */
+  padding: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+}
+
+/* .trending .custom-card {
+  margin-bottom: 0;
+  position: relative;
+  padding: 20px;
+  min-height: 200px; 
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.trending  .section-title {
+  margin-top: 20%;
+  font-size: 36px;
+  z-index: 1;
+  margin-left: 50px;
+  
+}
+
+.trending .highlight-color {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  color: rgb(225, 11, 121);
+  font-size: 80px;
+  
+}
+
+.trending .normal-color {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 80px;
+  color: black;
+  text-align: center;
+}
+
+.trending .view-all-products {
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  font-size: 25px;
+  font-weight: 500px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.trending .view-all-products:hover {
+  color: rgb(225, 11, 121);
+}
+
+.trending .break {
+  font-size: 50px;
+  margin-top: -25px;
+  color: rgb(224, 218, 218);
+}

@@ -1,0 +1,45 @@
+.new-arrivals {
+    text-align: center;
+    margin-top: 220px;
+  }
+  
+  .section-title {
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .highlight-color {
+    color:rgb(225, 11, 121);
+ 
+  }
+  
+  .normal-color {
+    color: black;
+   
+  }
+  
+  .section-description {
+    font-size: 16px;
+    color: #0c0808;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .view-all-products {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #3f3e3e;
+   font-size: 20px;
+   font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+  }
+  
+   .view-all-products:hover {
+    color: rgb(225, 11, 121);
+  }
+  
+  

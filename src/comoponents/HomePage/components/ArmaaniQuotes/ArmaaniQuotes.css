@@ -1,0 +1,89 @@
+.armaani-quotes {
+  margin: -68px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  top: 0;
+  width: 100%;  
+  background-color: transparent;
+}
+
+.armaani-quotes .custom-card {
+  margin-bottom: 0;
+  background-color: #EDDAC0;
+
+}
+
+.armaani-quotes .card-img-top {
+  width: 50%;
+  margin-right: -392px;
+}
+
+.armaani-quotes .blank-card {
+  position: absolute;
+  top: -80px;
+  left: 16px;
+  width: 24%;
+  height: 23%;
+  background-color: #d1bef3;
+  z-index: 1;
+}
+
+.armaani-quotes .card-image {
+  width: 25%; 
+  height: 50%;
+  border-radius: 5px;
+  position:relative;
+  top: -75px;
+  left: -51%;
+  z-index: 1;
+}
+
+.armaani-quotes .scrolling-image-container .armaani-earing-image {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  left: -40%;
+  bottom: px;
+  z-index: 5;
+}
+
+
+.quote {
+  position: relative;
+  bottom: 525px;
+  left: 300px;
+  right: 50px;
+  color: #4d4a4a;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    ;
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+
+.author {
+  top:10%;
+  position: relative;
+  bottom: 525px;  
+  left: 300px;
+  right: 50px;
+  color: #3C3C3C;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-family:'Times New Roman', Times, serif;
+
+  text-align: left;
+}
+blockquote::before {
+  content: "“";
+  font-size: 200px;
+  color: rgb(249, 250, 250);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  line-height: 1;
+  display: block;
+  height: 0.6em;
+}
+

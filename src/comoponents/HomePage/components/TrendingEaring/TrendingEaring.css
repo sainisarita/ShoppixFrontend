@@ -1,0 +1,87 @@
+.trending-earring-container {
+  margin: 50px;
+  padding: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.trending-earring-container .custom-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: auto;
+}
+
+.trending-earring-container .trend-earring {
+  width: 18rem !important;
+  border: none !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.trending-earring-container .trend-earring .card-img-top {
+  height: 350px !important;
+  object-fit: cover !important;
+  width: 100%;
+}
+
+.trending-earring-container .trend-earring .card-title {
+  font-size: 28px !important;
+  margin-bottom: 10px !important;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.trending-earring-container .trend-earring .card-text {
+  font-size: 16px !important;
+  color: #777 !important;
+}
+.trending-earring-container .trend-earring .btn {
+  background-color: rgb(225, 11, 121) !important;
+  border-color: rgb(225, 11, 121) !important;
+  color: #fff !important;
+  position: absolute;
+  top: 0px; /* Adjust the value to control the vertical positioning */
+  right: 0px; /* Adjust the value to control the horizontal positioning */
+  padding: 15px 30px; /* Adjust the padding as needed */
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  z-index: 1; /* Ensure the button appears above the card */
+}
+
+.trending-earring-container .trend-earring .btn:hover {
+  background-color: rgb(209, 0, 110) !important;
+  border-color: rgb(209, 0, 110) !important;
+}
+
+
+
+.trending-earring-container .trend-earring:nth-child(4n+2) {
+  margin-top: 100px;
+}
+
+.trending-earring-container .trend-earring:nth-child(4n+4) {
+  margin-top: 100px;
+}
+
+.trending-earring-container .trend-earring:nth-child(4n+1) {
+  margin-bottom: 100px;
+}
+
+.trending-earring-container .trend-earring:nth-child(4n+3) {
+  margin-bottom: 100px;
+}
+
+.trend-earring:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

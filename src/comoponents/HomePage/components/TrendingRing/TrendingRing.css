@@ -1,0 +1,87 @@
+.trending-ring-container {
+  margin: 19px;
+  padding: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.trending-ring-container .custom-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: auto;
+}
+
+.trending-ring-container .trend-ring {
+  width: 18rem !important;
+  border: none !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.trending-ring-container .trend-ring .card-img-top {
+  height: 350px !important;
+  object-fit: cover !important;
+  width: 100%;
+}
+
+.trending-ring-container .trend-ring .card-title {
+  font-size: 28px !important;
+  margin-bottom: 10px !important;
+  text-align: center !important;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.trending-ring-container .trend-ring .card-text {
+  font-size: 16px !important;
+  color: #777 !important;
+}
+
+.trending-ring-container .trend-ring .card-text {
+  font-size: 16px !important;
+  color: #777 !important;
+}
+.trending-ring-container .trend-ring .btn {
+  background-color: rgb(225, 11, 121) !important;
+  border-color: rgb(225, 11, 121) !important;
+  color: #fff !important;
+  position: absolute;
+  top: 0px; /* Adjust the value to control the vertical positioning */
+  right: 0px; /* Adjust the value to control the horizontal positioning */
+  padding: 15px 30px; /* Adjust the padding as needed */
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  z-index: 1; /* Ensure the button appears above the card */
+}
+
+.trending-ring-container .trend-ring .btn:hover {
+  background-color: rgb(209, 0, 110) !important;
+  border-color: rgb(209, 0, 110) !important;
+}
+.trending-ring-container .trend-ring:nth-child(4n+2) {
+  margin-top: 100px;
+}
+.trending-ring-container .trend-ring:nth-child(4n+4) {
+  margin-top: 100px;
+}
+
+.trending-ring-container .trend-ring:nth-child(4n+1) {
+  margin-bottom: 100px;
+}
+.trending-ring-container .trend-ring:nth-child(4n+3) {
+  margin-bottom: 100px;
+}
+
+.trend-ring:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
