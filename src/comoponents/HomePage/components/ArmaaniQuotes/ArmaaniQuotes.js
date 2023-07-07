@@ -24,17 +24,18 @@ const ArmaaniQuotes = () => {
 
   return (
     <div className="armaani-quotes">
-      <Card className="custom-card">
         <div className="blank-card"></div>
         <Card.Img variant="top" src={ArmaaniImage} className="card-image" />
+
+      <Card className="custom-card">
         <div className="scrolling-image-container">
           <Card.Img
             variant="top"
             src={ArmaaniEaringImage}
             className="armaani-earing-image"
             style={{
-              animationDuration: "0.2s", // Decreased animation duration for increased speed
-              transform: `translateY(${scrollPercentage * 500}px)`, // Adjusted value for faster scrolling speed
+              animationDuration: "5s", // Decreased animation duration for increased speed
+              transform: `translateY(${scrollPercentage * 600}px)`, // Adjusted value for faster scrolling speed
             }}
           />
         </div>
