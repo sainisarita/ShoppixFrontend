@@ -52,3 +52,34 @@ display: flex !important;
   margin-top: 0 !important;
 z-index: 999 !important;
 }
+
+.open-sidebar .content {
+  margin-left: 320px; /* Adjust this value based on your sidebar width */
+}
+
+.menu-container {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #e6e5e5; /* Border color for the icon and name box */
+  padding: 15px 15px 15px 25px;
+  cursor: pointer;
+  margin-left: -12px;
+  margin-right: 25px;
+  font-size: 25px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.menu-container:hover {
+  color: rgb(225, 11, 121);
+}
+
+.menu-icon {
+  margin-right: 8px;
+}
+
+.menu-name {
+  margin-right: 20px;
+}
+
+/* Add additional styles here as needed */
